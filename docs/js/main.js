@@ -382,6 +382,13 @@ var e = {};
                 }
             })
         }()
+        u = [];
+        var aaaa = document.getElementsByClassName('cart-items')
+        for(var aa = 0 ;aa<aaaa.length;aa++)
+        {
+            aaaa[aa].remove()
+        }
+
     }), window.onclick = function (t) {
        // t.clientX > 500 && i()
     };

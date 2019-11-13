@@ -382,13 +382,15 @@ var e = {};
                 }
             })
         }()
-        u = [];
-        var aaaa = document.getElementsByClassName('cart-items')
-        for(var aa = 0 ;aa<aaaa.length;aa++)
+       // debugger;
+        var aaaa = document.getElementsByClassName('cart-items')[0].children;
+        var ttt = aaaa.length;
+        for(var aa = 0 ;aa<ttt;aa++)
         {
-            aaaa[aa].remove()
+            aaaa[0].remove();
         }
-
+        u = [];
+            check()
     }), window.onclick = function (t) {
        // t.clientX > 500 && i()
     };

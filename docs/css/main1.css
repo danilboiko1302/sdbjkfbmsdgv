@@ -288,7 +288,12 @@ ul a:hover {
   bottom: 0;
 
 }
-
+.text-product, .addToCart, .red-button{
+  font-size: 40px;
+}
+.btn{
+  font-size: 40px;
+}
 #buttonToSubmit{
   background: rgb(159, 195, 216);
   color:white;
